@@ -223,6 +223,7 @@
           this.setPosition(this.newPos);
           window.removeEventListener('mousemove', onDragging);
           window.removeEventListener('mouseup', onDragEnd);
+          window.removeEventListener('contextmenu', onDragEnd);
         }
       };
 
@@ -230,6 +231,7 @@
         onDragStart(event);
         window.addEventListener('mousemove', onDragging);
         window.addEventListener('mouseup', onDragEnd);
+        window.addEventListener('contextmenu', onDragEnd);
       });
     },
 
