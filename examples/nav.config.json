@@ -207,6 +207,10 @@
             {
               "path": "/card",
               "title": "Card 卡片"
+            },
+            {
+              "path": "/carousel",
+              "title": "Carousel 轮播器"
             }
           ]
         }
@@ -421,6 +425,10 @@
             {
               "path": "/card",
               "title": "Card"
+            },
+            {
+              "path": "/carousel",
+              "title": "Carousel"
             }
           ]
         }
